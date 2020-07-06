@@ -1,5 +1,8 @@
 .body {
-    
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+
 }
 
 .header {
@@ -11,16 +14,16 @@
 }
 
 .header__logo {
-    
-    
+
+
 }
 
 
 .nav {
-   
+
     width: 50%;
     float: right;
-    
+
     flex-wrap: nowrap;
 }
 
@@ -29,26 +32,93 @@
     margin-right: 85px;
 }
 
+.nav-link {
+    font-size: 14px;
+    color: #626262;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
 .img__header {
-    
-    
+
+
+}
+.section {
+
 }
 
-
-.left__photo {
-    width: 421px;
-    height: 281px;
+.section__title {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #C0BAAD;
+    margin-left: 150px;
+    margin-top: 96px;
+    margin-bottom: 19px;
 }
 
-
-.right__photo {
-    width: 421px;
-    height: 281px;
+.section__subtitle {
+    color: #626262;
+    font-size: 30px;
+    margin-left: 150px;
+    margin-bottom: 32px;
 }
 
+.section__text {
+    color: #707070;
+    font-size: 14px;
+    margin-left: 150px;
+}
+
+.photo {
+    margin-top: 130px;
+    margin-left: 150px;
+}
+
+.photo__img {
+    width: 420px;
+    height: 280px;
+    margin-bottom: 30px;
+}
+
+.photo__title {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #C0BAAD;
+    margin-bottom: 22px;
+}
+
+.photo__subtitle {
+    color: #626262;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.photo__text {
+    font-size: 14px;
+    color: #707070;
+    margin-bottom: 101px;
+}
+
+.newsletter {
+
+    height: 290px;
 
 
+}
 
+.newsletter__title {
+
+}
+
+.input__newsletter {
+    width: 450px;
+    margin-left: 600px;
+
+}
 
 
 
