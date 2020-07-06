@@ -1,0 +1,58 @@
+.body {
+    
+}
+
+.header {
+    margin-top: 45px;
+}
+
+.container {
+    width: 1050px;
+}
+
+.header__logo {
+    
+    
+}
+
+
+.nav {
+   
+    width: 50%;
+    float: right;
+    
+    flex-wrap: nowrap;
+}
+
+.nav-item {
+    text-align: center;
+    margin-right: 85px;
+}
+
+.img__header {
+    
+    
+}
+
+
+.left__photo {
+    width: 421px;
+    height: 281px;
+}
+
+
+.right__photo {
+    width: 421px;
+    height: 281px;
+}
+
+
+
+
+
+
+
+
+
+
+
