@@ -1,23 +1,18 @@
-.body {
+.html, body {
     font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-size: 14px;
 
+
 }
 
 .header {
-    margin-top: 45px;
+    margin-top: 3.2rem;
 }
 
 .container {
-    width: 1200px;
+    width: 85rem;
 }
-
-.header__logo {
-
-
-}
-
 
 .nav {
 
@@ -29,19 +24,20 @@
 
 .nav-item {
     text-align: center;
-    margin-right: 85px;
+    margin-right: 6rem;
+}
+
+.nav-item:hover {
+    color: #000;
 }
 
 .nav-link {
-    font-size: 14px;
+    font-size: 1rem;
     color: #626262;
     line-height: 1;
 }
 
-.img__header {
 
-
-}
 .newsletter {
     background-color: #F0F0F0;
 
@@ -50,80 +46,80 @@
 .section__title {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 1rem;
     text-transform: uppercase;
     color: #C0BAAD;
-    margin-top: 96px;
-    margin-bottom: 80px;
+    margin-top: 6.9rem;
+    margin-bottom: 6rem;
 }
 
 .section__subtitle {
     color: #626262;
-    font-size: 30px;
-    margin-bottom: 32px;
+    font-size: 2.1rem;
+    margin-bottom: 2.3rem;
 }
 
 .section__text {
     color: #707070;
-    font-size: 14px;
+    font-size: 1rem;
 
 }
 
-.photo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 75px 450px;
+
+
+.photo__item {
+    padding-left: 1rem;
 }
 
 .photo__img {
-    width: 420px;
-    height: 280px;
-    margin-bottom: 30px;
+    width: 30rem;
+    height: 20rem;
+    margin-bottom: 2rem;
+    padding-right: 1rem;
 }
 
 .photo__title {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 1rem;
     text-transform: uppercase;
     color: #C0BAAD;
-    margin-bottom: 22px;
+    margin-bottom: 1.6rem;
 }
 
 .photo__subtitle {
     color: #626262;
-    font-size: 30px;
-    margin-bottom: 30px;
+    font-size: 2rem;
+    margin-bottom: 2rem;
 }
 
 .photo__text {
-    font-size: 14px;
+    font-size: 1rem;
     color: #707070;
-    margin-bottom: 101px;
+    margin-bottom: 7.2rem;
 }
 
 .newsletter {
     background-color: #F0F0F0;
     align-items: center;
     width: 100%;
-    height: 290px;
+    height: 20.7rem;
 
 
 }
 
 .newsletter__title {
     position: relative;
-    padding-top: 65px;
-    margin-bottom: 80px;
+    padding-top: 4.6rem;
+    margin-bottom: 7.3rem;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 2.1rem;
 }
 
 .form__email {
     position: relative;
-    width: 400px;
-    border-bottom: 1px solid #000;
+    width: 29rem;
+    border-bottom: .07rem solid #000;
 }
 
 .form-control:focus {
@@ -152,22 +148,56 @@
 /*lifestyle*/
 
 .lifestyle {
-    height: 2000px;
+    height: 140rem;
     display: flex;
     justify-content: center;
-    margin: 75px 450px;
+    margin: 5.4rem;
 }
 
 .btn--lifestyle {
-    border: 2px solid #626262;
-    width: 164px;
-    height: 60px;
-    padding: 15px;
+    border: .05rem solid #626262;
+    width: 11rem;
+    height: 3rem;
+    padding: .6rem;
+
+
+}
+
+/*footer======*/
+.footer {
+    width: 100%;
+    height: 7rem;
+    background-color: #F0F0F0;
+    padding-top: 2rem;
+}
+.footer__team {
+    color: #626262;
+    margin-right: 1rem;
+}
+
+.footer__team:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.footer__social {
+    float: right;
+}
+
+.footer__svg {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 1rem;
+
 
 }
 
 
 
+.footer__title {
+    font-size: 1rem;
+    margin-right: 1rem;
+}
 
 
 
