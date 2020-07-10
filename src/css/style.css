@@ -62,7 +62,18 @@
 .section__text {
     color: #707070;
     font-size: 1rem;
+    margin-top: 2rem;
 
+}
+.section__quote {
+    color: #707070;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 3rem;
+}
+
+.section__img {
+    margin-top: 2.5rem
 }
 
 
@@ -197,6 +208,9 @@
     font-size: 1rem;
     margin-right: 1rem;
 }
+/*main*/
 
+.card {
+    margin-top: 6.9rem;}
 
 
